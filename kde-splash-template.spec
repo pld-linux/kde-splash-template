@@ -1,6 +1,6 @@
 %define		_splash		-
 Summary:	KDE splash screen
-Summary(pl):	Ekran startowy KDE
+Summary(pl.UTF-8):   Ekran startowy KDE
 Name:		kde-splash-%{_splash}
 Version:	-
 Release:	0.1
@@ -16,7 +16,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 %{_name} is
 
-%description -l pl
+%description -l pl.UTF-8
 
 %prep
 
